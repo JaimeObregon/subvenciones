@@ -40,7 +40,7 @@ Y hacerlo de forma cooperativa, reuniendo esfuerzos y capacidades en torno a un 
 
 `[WIP]`
 
-- **Si eres un programador** …
+- **Si eres un programador** [Guia de contribucion](CONTRIBUTING.md)
 
 - **Si eres un especialista en ayudas públicas** …
 
