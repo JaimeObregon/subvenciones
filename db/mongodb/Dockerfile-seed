@@ -1,0 +1,11 @@
+## Seed database
+
+FROM mongo:5.0.6-focal
+WORKDIR /app/data
+COPY data/* .
+COPY script.sh .
+RUN chmod +x script.sh
+
+ENV HOST=mongodb
+
+CMD ["/app/data/script.sh"]
