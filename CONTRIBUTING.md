@@ -10,7 +10,7 @@ If you don't speak Spanish you can check our [English version](CONTRIBUTING_en.m
 * **Crea un tiquet en github** Si has encontrado un bug, quieres solicitar una mejora o quieres implementar una nueva funcionalidad. Asegurate que nadie ha creado un ticket (issue) similar!
 * **Crea una pull request** y asegurate que tu commit contiene el número de issue. 
 
-## Versión larga
+## Versión detallada
 
 ### Paso 1: Crea un Issue
 
