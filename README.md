@@ -70,7 +70,20 @@ Y hacerlo de forma cooperativa, reuniendo esfuerzos y capacidades en torno a un 
 
 `[WIP]`
 
-…
+- **Protección de datos**
+
+[Normativa y circulares](https://www.aepd.es/es/informes-y-resoluciones/normativa-y-circulares)
+
+
+- **Transparencia, acceso y reutilización de información pública**
+
+[Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público.](https://www.boe.es/buscar/doc.php?id=BOE-A-2007-19814)
+
+[Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno.](https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887)
+
+- **Condiciones de uso de los datos del SNPSAP**
+
+[Aviso legal de SNPSAP](https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal)
 
 ## Participantes
 
