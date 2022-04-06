@@ -70,7 +70,20 @@ Y hacerlo de forma cooperativa, reuniendo esfuerzos y capacidades en torno a un 
 
 `[WIP]`
 
-…
+- **Protección de datos**
+
+[Normativa y circulares](https://www.aepd.es/es/informes-y-resoluciones/normativa-y-circulares)
+
+
+- **Transparencia, acceso y reutilización de información pública**
+
+[Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público.](https://www.boe.es/buscar/doc.php?id=BOE-A-2007-19814)
+
+[Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno.](https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887)
+
+- **Condiciones de uso de los datos del SNPSAP**
+
+[Aviso legal de SNPSAP](https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal)
 
 ## Participantes
 
@@ -82,3 +95,5 @@ Y hacerlo de forma cooperativa, reuniendo esfuerzos y capacidades en torno a un 
 - Pedro J. Molina ([@pjmolina](https://github.com/pjmolina)), programador TypeScript, Docker y dotNet.
 - Álvaro Díaz. ([@Paquito86](https://github.com/Paquito86)), Ingeniero DevOps Junior.
 - José Ordaz. ([@JoseOrdaz](https://github.com/JoseOrdaz)), Junior FrontEnd Developer.
+- Miguel González. ([@migohe14](https://github.com/migohe14)), FrontEnd Developer y estudiante de Máster de Abogacía.
+
