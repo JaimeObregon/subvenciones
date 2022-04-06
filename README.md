@@ -82,3 +82,5 @@ Y hacerlo de forma cooperativa, reuniendo esfuerzos y capacidades en torno a un 
 - Pedro J. Molina ([@pjmolina](https://github.com/pjmolina)), programador TypeScript, Docker y dotNet.
 - Álvaro Díaz. ([@Paquito86](https://github.com/Paquito86)), Ingeniero DevOps Junior.
 - José Ordaz. ([@JoseOrdaz](https://github.com/JoseOrdaz)), Junior FrontEnd Developer.
+- Miguel González. ([@migohe14](https://github.com/migohe14)), FrontEnd Developer y estudiante de Máster de Abogacía.
+
