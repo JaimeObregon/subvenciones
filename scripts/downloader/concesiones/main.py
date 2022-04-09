@@ -1,4 +1,6 @@
 import json
+import os
+import re
 import time
 from datetime import date
 
@@ -21,9 +23,10 @@ def get_random_header():
 def get_csrf(headers):
     page = s.get("https://www.infosubvenciones.es/bdnstrans/GE/es/concesiones", headers=headers,
                  verify=False)
-    soup = BeautifulSoup(page.text, 'html.parser')
-    csrf = soup.find('input', attrs={'name': '_csrf'})
-    return csrf['value']
+    # soup = BeautifulSoup(page.text, 'html.parser')
+    # csrf = soup.find('input', attrs={'name': '_csrf'})
+    # return csrf['value']
+    return re.findall('csrf\" value=\"(.*)\"', page.text)[0]
 
 
 def post_csrf(csrf, headers, date=""):
@@ -62,10 +65,11 @@ def get_data(headers, page_number):
 
 def num_entries(date, headers):
     requests.urllib3.disable_warnings()
+    date_str = date.strftime("%d/%m/%Y")
     csrf = get_csrf(headers)
-    post_csrf(csrf, headers, date)
+    post_csrf(csrf, headers, date_str)
     initial_data = get_data(headers, 1)
-    print(f"{date} tiene {initial_data['records']} entradas en {initial_data['total']} páginas")
+    print(f"{date_str} tiene {initial_data['records']} entradas en {initial_data['total']} páginas")
 
     initial_rows = initial_data['rows']
     data = Parallel(n_jobs=5)(delayed(get_data)(headers, i) for i in range(2, initial_data['total'] + 1))
@@ -74,7 +78,10 @@ def num_entries(date, headers):
 
     print(len(initial_rows))
 
-    file_name = f"results-{date.replace('/', '-')}.json"
+    if not os.path.exists(f"{date.year}/{date.month}"):
+        os.makedirs(f"{date.year}/{date.month}")
+
+    file_name = f"{date.year}/{date.month}/results-{date_str.replace('/', '-')}.json"
     print(f"Saving to {file_name}")
 
     with open(file_name, "w", encoding="utf-8") as f:
@@ -89,5 +96,5 @@ if __name__ == '__main__':
     dates = [date.fromordinal(i) for i in range(start_date.toordinal(), end_date.toordinal())]
     dates_str = [d.strftime("%d/%m/%Y") for d in dates]
 
-    for d in dates_str:
+    for d in dates:
         num_entries(d, get_random_header())
