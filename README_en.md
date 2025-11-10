@@ -38,7 +38,7 @@ And make it cooperatively, joining efforts and capabilities around a collaborati
 
 `[WIP]`
 
-- **If you are a programmer**...
+- **If you are a programmer** [Contributing Guidelines](CONTRIBUTING_en.md)
 
 - **If you are an expert in public grants**...
 

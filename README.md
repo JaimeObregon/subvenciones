@@ -87,7 +87,7 @@ El reto de este proyecto consiste en:
 
 `[WIP]`
 
-- **Si eres un programador** …
+- **Si eres un programador** [Guia de contribucion](CONTRIBUTING.md)
 
 - **Si eres un especialista en ayudas públicas** …
 
