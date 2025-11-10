@@ -129,3 +129,4 @@ El reto de este proyecto consiste en:
 - Pedro J. Molina ([@pjmolina](https://github.com/pjmolina)), programador TypeScript, Docker y dotNet.
 - Álvaro Díaz. ([@Paquito86](https://github.com/Paquito86)), Ingeniero DevOps Junior.
 - José Ordaz. ([@JoseOrdaz](https://github.com/JoseOrdaz)), Junior FrontEnd Developer.
+- Dani Fabián ([@dfabian](https://github.com/Aspir-ina)), full stack dev
